@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2720C0F11BA0612D00CC2BE3 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2720C0F01BA0612D00CC2BE3 /* ORSSerialBuffer.m */; settings = {ASSET_TAGS = (); }; };
+		475735F11DC9415E00F0F850 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 475735E81DC9415E00F0F850 /* ORSSerialBuffer.m */; };
+		475735F21DC9415E00F0F850 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 475735EA1DC9415E00F0F850 /* ORSSerialPacketDescriptor.m */; };
+		475735F31DC9415E00F0F850 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 475735EC1DC9415E00F0F850 /* ORSSerialPort.m */; };
+		475735F41DC9415E00F0F850 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 475735EE1DC9415E00F0F850 /* ORSSerialPortManager.m */; };
+		475735F51DC9415E00F0F850 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 475735F01DC9415E00F0F850 /* ORSSerialRequest.m */; };
 		9D2B58071ADC16B500B08D53 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B58061ADC16B500B08D53 /* main.swift */; };
-		9D2B58141ADC170C00B08D53 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B58111ADC170C00B08D53 /* ORSSerialPort.m */; };
-		9D2B58151ADC170C00B08D53 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2B58131ADC170C00B08D53 /* ORSSerialPortManager.m */; };
-		9DFF14861B94E38D004B42B3 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF14851B94E38D004B42B3 /* ORSSerialPacketDescriptor.m */; };
-		9DFF14891B94E396004B42B3 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFF14881B94E396004B42B3 /* ORSSerialRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,19 +28,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2720C0EF1BA0612D00CC2BE3 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialBuffer.h; path = ../../../../Source/ORSSerialBuffer.h; sourceTree = "<group>"; };
-		2720C0F01BA0612D00CC2BE3 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialBuffer.m; path = ../../../../Source/ORSSerialBuffer.m; sourceTree = "<group>"; };
+		475735E71DC9415E00F0F850 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialBuffer.h; path = ../../../../Sources/ORSSerialBuffer.h; sourceTree = "<group>"; };
+		475735E81DC9415E00F0F850 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialBuffer.m; path = ../../../../Sources/ORSSerialBuffer.m; sourceTree = "<group>"; };
+		475735E91DC9415E00F0F850 /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialPacketDescriptor.h; path = ../../../../Sources/ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		475735EA1DC9415E00F0F850 /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPacketDescriptor.m; path = ../../../../Sources/ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		475735EB1DC9415E00F0F850 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialPort.h; path = ../../../../Sources/ORSSerialPort.h; sourceTree = "<group>"; };
+		475735EC1DC9415E00F0F850 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPort.m; path = ../../../../Sources/ORSSerialPort.m; sourceTree = "<group>"; };
+		475735ED1DC9415E00F0F850 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialPortManager.h; path = ../../../../Sources/ORSSerialPortManager.h; sourceTree = "<group>"; };
+		475735EE1DC9415E00F0F850 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPortManager.m; path = ../../../../Sources/ORSSerialPortManager.m; sourceTree = "<group>"; };
+		475735EF1DC9415E00F0F850 /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialRequest.h; path = ../../../../Sources/ORSSerialRequest.h; sourceTree = "<group>"; };
+		475735F01DC9415E00F0F850 /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialRequest.m; path = ../../../../Sources/ORSSerialRequest.m; sourceTree = "<group>"; };
 		9D2B57FB1ADC165D00B08D53 /* CommandLineDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CommandLineDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D2B58061ADC16B500B08D53 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9D2B580F1ADC170C00B08D53 /* CommandLineDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CommandLineDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		9D2B58101ADC170C00B08D53 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialPort.h; path = ../../../../Source/ORSSerialPort.h; sourceTree = "<group>"; };
-		9D2B58111ADC170C00B08D53 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPort.m; path = ../../../../Source/ORSSerialPort.m; sourceTree = "<group>"; };
-		9D2B58121ADC170C00B08D53 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialPortManager.h; path = ../../../../Source/ORSSerialPortManager.h; sourceTree = "<group>"; };
-		9D2B58131ADC170C00B08D53 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPortManager.m; path = ../../../../Source/ORSSerialPortManager.m; sourceTree = "<group>"; };
-		9DFF14841B94E38D004B42B3 /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialPacketDescriptor.h; path = ../../../../Source/ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
-		9DFF14851B94E38D004B42B3 /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialPacketDescriptor.m; path = ../../../../Source/ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
-		9DFF14871B94E396004B42B3 /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ORSSerialRequest.h; path = ../../../../Source/ORSSerialRequest.h; sourceTree = "<group>"; };
-		9DFF14881B94E396004B42B3 /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ORSSerialRequest.m; path = ../../../../Source/ORSSerialRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,16 +83,16 @@
 		9D2B58161ADC171100B08D53 /* ORSSerialPort */ = {
 			isa = PBXGroup;
 			children = (
-				9D2B58101ADC170C00B08D53 /* ORSSerialPort.h */,
-				9D2B58111ADC170C00B08D53 /* ORSSerialPort.m */,
-				9D2B58121ADC170C00B08D53 /* ORSSerialPortManager.h */,
-				9D2B58131ADC170C00B08D53 /* ORSSerialPortManager.m */,
-				2720C0EF1BA0612D00CC2BE3 /* ORSSerialBuffer.h */,
-				2720C0F01BA0612D00CC2BE3 /* ORSSerialBuffer.m */,
-				9DFF14871B94E396004B42B3 /* ORSSerialRequest.h */,
-				9DFF14881B94E396004B42B3 /* ORSSerialRequest.m */,
-				9DFF14841B94E38D004B42B3 /* ORSSerialPacketDescriptor.h */,
-				9DFF14851B94E38D004B42B3 /* ORSSerialPacketDescriptor.m */,
+				475735E71DC9415E00F0F850 /* ORSSerialBuffer.h */,
+				475735E81DC9415E00F0F850 /* ORSSerialBuffer.m */,
+				475735E91DC9415E00F0F850 /* ORSSerialPacketDescriptor.h */,
+				475735EA1DC9415E00F0F850 /* ORSSerialPacketDescriptor.m */,
+				475735EB1DC9415E00F0F850 /* ORSSerialPort.h */,
+				475735EC1DC9415E00F0F850 /* ORSSerialPort.m */,
+				475735ED1DC9415E00F0F850 /* ORSSerialPortManager.h */,
+				475735EE1DC9415E00F0F850 /* ORSSerialPortManager.m */,
+				475735EF1DC9415E00F0F850 /* ORSSerialRequest.h */,
+				475735F01DC9415E00F0F850 /* ORSSerialRequest.m */,
 			);
 			name = ORSSerialPort;
 			sourceTree = "<group>";
@@ -130,6 +130,7 @@
 				TargetAttributes = {
 					9D2B57FA1ADC165D00B08D53 = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -155,12 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D2B58151ADC170C00B08D53 /* ORSSerialPortManager.m in Sources */,
-				9DFF14861B94E38D004B42B3 /* ORSSerialPacketDescriptor.m in Sources */,
-				2720C0F11BA0612D00CC2BE3 /* ORSSerialBuffer.m in Sources */,
+				475735F21DC9415E00F0F850 /* ORSSerialPacketDescriptor.m in Sources */,
+				475735F11DC9415E00F0F850 /* ORSSerialBuffer.m in Sources */,
 				9D2B58071ADC16B500B08D53 /* main.swift in Sources */,
-				9D2B58141ADC170C00B08D53 /* ORSSerialPort.m in Sources */,
-				9DFF14891B94E396004B42B3 /* ORSSerialRequest.m in Sources */,
+				475735F31DC9415E00F0F850 /* ORSSerialPort.m in Sources */,
+				475735F41DC9415E00F0F850 /* ORSSerialPortManager.m in Sources */,
+				475735F51DC9415E00F0F850 /* ORSSerialRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +254,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/CommandLineDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -263,6 +265,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/CommandLineDemo-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

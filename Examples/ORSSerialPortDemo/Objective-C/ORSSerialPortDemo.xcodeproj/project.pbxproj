@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2788B8001BA05EFC0018C0E7 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788B7FF1BA05EFC0018C0E7 /* ORSSerialBuffer.m */; settings = {ASSET_TAGS = (); }; };
+		2788B8001BA05EFC0018C0E7 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788B7FF1BA05EFC0018C0E7 /* ORSSerialBuffer.m */; };
 		9D52392E1AC859DF00AEB75F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D52392D1AC859DF00AEB75F /* IOKit.framework */; };
 		9D5239301AC859E700AEB75F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D52392F1AC859E700AEB75F /* Cocoa.framework */; };
 		9D66D81D159BCAB800EE6D09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D66D81B159BCAB800EE6D09 /* InfoPlist.strings */; };
@@ -138,7 +138,7 @@
 				2788B7FF1BA05EFC0018C0E7 /* ORSSerialBuffer.m */,
 			);
 			name = ORSSerialPort;
-			path = ../../../Source;
+			path = ../../../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

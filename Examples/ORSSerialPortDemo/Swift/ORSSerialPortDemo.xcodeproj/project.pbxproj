@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2788B8031BA05F3E0018C0E7 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788B8021BA05F3E0018C0E7 /* ORSSerialBuffer.m */; settings = {ASSET_TAGS = (); }; };
+		4757360B1DC942E700F0F850 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 475736061DC942E700F0F850 /* ORSSerialBuffer.m */; };
+		4757360C1DC942E700F0F850 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 475736081DC942E700F0F850 /* ORSSerialPort.m */; };
+		4757360D1DC942E700F0F850 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4757360A1DC942E700F0F850 /* ORSSerialPortManager.m */; };
 		9D0E21661A0441F500051960 /* SerialPortDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0E21651A0441F500051960 /* SerialPortDemoController.swift */; };
 		9D0E21681A04460000051960 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D0E21671A04460000051960 /* MainMenu.xib */; };
 		9DFD06401A043BF300CE0294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFD063B1A043BF300CE0294 /* Images.xcassets */; };
 		9DFD06421A043BF300CE0294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD063E1A043BF300CE0294 /* AppDelegate.swift */; };
-		9DFD064F1A043D3600CE0294 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD064E1A043D3600CE0294 /* ORSSerialPort.m */; };
-		9DFD06521A043D5500CE0294 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD06511A043D5500CE0294 /* ORSSerialPortManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2788B8011BA05F3E0018C0E7 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialBuffer.h; sourceTree = "<group>"; };
-		2788B8021BA05F3E0018C0E7 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialBuffer.m; sourceTree = "<group>"; };
+		475736051DC942E700F0F850 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialBuffer.h; sourceTree = "<group>"; };
+		475736061DC942E700F0F850 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialBuffer.m; sourceTree = "<group>"; };
+		475736071DC942E700F0F850 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		475736081DC942E700F0F850 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		475736091DC942E700F0F850 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		4757360A1DC942E700F0F850 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
 		9D0E21651A0441F500051960 /* SerialPortDemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialPortDemoController.swift; sourceTree = "<group>"; };
 		9D0E21671A04460000051960 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		9DFD06181A043BA400CE0294 /* ORSSerialPortDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORSSerialPortDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFD063B1A043BF300CE0294 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9DFD063C1A043BF300CE0294 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFD063E1A043BF300CE0294 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DFD064D1A043D3600CE0294 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
-		9DFD064E1A043D3600CE0294 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
-		9DFD06501A043D5500CE0294 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
-		9DFD06511A043D5500CE0294 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
 		9DFD06531A043DB900CE0294 /* ORSSerialPortDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPortDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,15 +84,15 @@
 		9DFD06431A043C8000CE0294 /* ORSSerialPort */ = {
 			isa = PBXGroup;
 			children = (
-				9DFD064D1A043D3600CE0294 /* ORSSerialPort.h */,
-				9DFD064E1A043D3600CE0294 /* ORSSerialPort.m */,
-				9DFD06501A043D5500CE0294 /* ORSSerialPortManager.h */,
-				9DFD06511A043D5500CE0294 /* ORSSerialPortManager.m */,
-				2788B8011BA05F3E0018C0E7 /* ORSSerialBuffer.h */,
-				2788B8021BA05F3E0018C0E7 /* ORSSerialBuffer.m */,
+				475736051DC942E700F0F850 /* ORSSerialBuffer.h */,
+				475736061DC942E700F0F850 /* ORSSerialBuffer.m */,
+				475736071DC942E700F0F850 /* ORSSerialPort.h */,
+				475736081DC942E700F0F850 /* ORSSerialPort.m */,
+				475736091DC942E700F0F850 /* ORSSerialPortManager.h */,
+				4757360A1DC942E700F0F850 /* ORSSerialPortManager.m */,
 			);
 			name = ORSSerialPort;
-			path = ../../../Source;
+			path = ../../../Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +128,7 @@
 				TargetAttributes = {
 					9DFD06171A043BA400CE0294 = {
 						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -166,11 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DFD06521A043D5500CE0294 /* ORSSerialPortManager.m in Sources */,
 				9DFD06421A043BF300CE0294 /* AppDelegate.swift in Sources */,
-				9DFD064F1A043D3600CE0294 /* ORSSerialPort.m in Sources */,
 				9D0E21661A0441F500051960 /* SerialPortDemoController.swift in Sources */,
-				2788B8031BA05F3E0018C0E7 /* ORSSerialBuffer.m in Sources */,
+				4757360D1DC942E700F0F850 /* ORSSerialPortManager.m in Sources */,
+				4757360B1DC942E700F0F850 /* ORSSerialBuffer.m in Sources */,
+				4757360C1DC942E700F0F850 /* ORSSerialPort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +269,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/ORSSerialPortDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -283,6 +285,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.openreelsoftware.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Sources/ORSSerialPortDemo-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

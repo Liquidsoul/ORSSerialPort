@@ -109,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				9DCA89311A2BB15A009285EB /* ORSSerial.h */,
-				9DCA89331A2BB1E2009285EB /* Source */,
+				9DCA89331A2BB1E2009285EB /* Sources */,
 				9DCA89301A2BB14E009285EB /* Resources */,
 				9DCCC2531AD1D289003E21FC /* Linked Frameworks */,
 				9D7472141B6D7767002D8B10 /* ORSSerialPort Tests */,
@@ -134,7 +134,7 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		9DCA89331A2BB1E2009285EB /* Source */ = {
+		9DCA89331A2BB1E2009285EB /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				9DCA89341A2BB1E2009285EB /* ORSSerialPort.h */,
@@ -147,8 +147,8 @@
 				9DD6B1D11B5F4338000AB46E /* ORSSerialPacketDescriptor.m */,
 				9D64D0EA1B9CBCA4009D1AEB /* Private */,
 			);
-			name = Source;
-			path = ../Source;
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 		9DCCC2531AD1D289003E21FC /* Linked Frameworks */ = {

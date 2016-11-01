@@ -119,7 +119,7 @@ class SerialBoardController: NSObject, ORSSerialPortDelegate {
 	}
 	
 	func serialPortWasOpened(serialPort: ORSSerialPort) {
-		self.pollingTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "pollingTimerFired:", userInfo: nil, repeats: true)
+		self.pollingTimer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: #selector(SerialBoardController.pollingTimerFired(_:)), userInfo: nil, repeats: true)
 		self.pollingTimer!.fire()
 	}
 	
